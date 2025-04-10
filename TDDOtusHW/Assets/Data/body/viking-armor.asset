@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbc6bc906c44982bfdfd01ee7803e11, type: 3}
+  m_Name: viking-armor
+  m_EditorClassIdentifier: 
+  Prototype:
+    Id: 2
+    MetaData:
+      Name: "\u0411\u0440\u043E\u043D\u044F \u0432\u0438\u043A\u0438\u043D\u0433\u0430"
+      Description: "\u0444\u044B\u0430\u044B\u0444\u0430"
+      Icon: {fileID: 21300000, guid: 05394a6328156e7408566328cf7e6e9a, type: 3}
+    Flags: 4
+    Components:
+    - rid: 3887614963590103321
+    - rid: 3887614963590103322
+    - rid: 3887614963590103323
+  references:
+    version: 2
+    RefIds:
+    - rid: 3887614963590103321
+      type: {class: HeroEquipmentComponent, ns: ATG.Items, asm: Assembly-CSharp}
+      data:
+        Tag: 5
+    - rid: 3887614963590103322
+      type: {class: HeroHitPointsEffectComponent, ns: ATG.Items, asm: Assembly-CSharp}
+      data:
+        HitPointsEffect: 100
+    - rid: 3887614963590103323
+      type: {class: HeroSpeedEffectComponent, ns: ATG.Items, asm: Assembly-CSharp}
+      data:
+        SpeedEffect: -20

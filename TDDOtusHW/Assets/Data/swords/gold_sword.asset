@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbc6bc906c44982bfdfd01ee7803e11, type: 3}
+  m_Name: gold_sword
+  m_EditorClassIdentifier: 
+  Prototype:
+    Id: 14
+    MetaData:
+      Name: Gold Sword
+      Description: asfsaf
+      Icon: {fileID: 21300000, guid: 0ca0533d8811e8e4780225b6564796f5, type: 3}
+    Flags: 4
+    Components:
+    - rid: 3887614963590103357
+    - rid: 3887614963590103358
+    - rid: 3887614963590103359
+  references:
+    version: 2
+    RefIds:
+    - rid: 3887614963590103357
+      type: {class: HeroEquipmentComponent, ns: ATG.Items, asm: Assembly-CSharp}
+      data:
+        Tag: 2
+    - rid: 3887614963590103358
+      type: {class: HeroDamageEffectComponent, ns: ATG.Items, asm: Assembly-CSharp}
+      data:
+        DamageEffect: 30
+    - rid: 3887614963590103359
+      type: {class: HeroSpeedEffectComponent, ns: ATG.Items, asm: Assembly-CSharp}
+      data:
+        SpeedEffect: -6
