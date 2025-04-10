@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using NUnit.Framework;
 
-public class IntentoryTest : MonoBehaviour
+namespace ATG.Items.Tests
 {
-    // Start is called before the first frame update
-    void Start()
+    [TestFixture]
+    public class IntentoryTest
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [Test]
+        public void ExampleTest()
+        {
+            Assert.Fail();
+        }
     }
 }
